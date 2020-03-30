@@ -3,13 +3,15 @@
 .container {
   display: block;
 
-  &.smallContainer {
-    .details {
-      font-size: @font-size-base;
-    }
+  @media only screen and (min-width: @breakpoint-large) {
+    &.smallContainer {
+      .details {
+        font-size: @font-size-base;
+      }
 
-    .title {
-      font-size: @font-size-larger;
+      .title {
+        font-size: @font-size-larger;
+      }
     }
   }
 
