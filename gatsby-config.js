@@ -7,6 +7,7 @@ module.exports = {
     title: `Manuscritos digitales`,
     description: ``,
     author: `@ldipasquale`,
+    siteUrl: 'https://kind-heyrovsky-8701be.netlify.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet-async`,
