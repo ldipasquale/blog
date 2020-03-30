@@ -6,7 +6,7 @@ import Constants from 'constants'
 import SEO from './SEO'
 import Header from './Header'
 
-import styles from './styles.less'
+import styles from './styles.module.less'
 
 const Layout = ({ title, details, imageUrl, children }) => (
   <div className={styles.container}>

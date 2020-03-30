@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import { Layout, Post } from 'components'
 
-import styles from './styles.less'
+import styles from './styles.module.less'
 
 const renderPost = size => ({ id, tags, date, data: { image, title } }) => (
   <Post

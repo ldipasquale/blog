@@ -5,7 +5,7 @@ import 'moment/locale/es'
 
 import { Layout } from 'components'
 
-import styles from './styles.less'
+import styles from './styles.module.less'
 
 moment.locale('es')
 

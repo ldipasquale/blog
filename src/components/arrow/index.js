@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
 
-import styles from './styles.less'
+import styles from './styles.module.less'
 
 const Directions = {
   LEFT: 'left',

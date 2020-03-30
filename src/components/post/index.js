@@ -4,7 +4,7 @@ import cx from 'classnames'
 
 import { Link } from 'gatsby'
 
-import styles from './styles.less'
+import styles from './styles.module.less'
 
 const Sizes = {
   SMALL: 'small',

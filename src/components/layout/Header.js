@@ -7,7 +7,7 @@ import Constants from 'constants'
 
 import { Arrow } from 'components'
 
-import styles from './styles.less'
+import styles from './styles.module.less'
 
 const parallaxBlur = { min: -5, max: 10 }
 
