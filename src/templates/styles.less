@@ -1,0 +1,27 @@
+@import '~stylesheets/vars/index.less';
+
+.details {
+  .author {
+    border-bottom: 1px solid @color-lighten-blue;
+    padding-bottom: @spacing-tiny;
+  }
+}
+
+.content {
+  font-size: @font-size-large;
+  line-height: @spacing-huge;
+
+  p {
+    margin-bottom: @spacing-huge;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  :global {
+    .block-img {
+      text-align: center;
+    }
+  }
+}

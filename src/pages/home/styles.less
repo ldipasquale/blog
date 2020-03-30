@@ -1,0 +1,35 @@
+@import '~stylesheets/vars/index.less';
+
+.row {
+  .post {
+    margin-bottom: @spacing-xxhuge;
+  }
+
+  &:last-child {
+    .post {
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: @breakpoint-large) {
+  .row {
+    display: flex;
+    margin-bottom: @spacing-xhuge;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    .post {
+      margin-right: @spacing-xhuge;
+      margin-bottom: 0;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

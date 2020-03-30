@@ -1,0 +1,51 @@
+@import '~stylesheets/vars/index.less';
+
+.container {
+  width: @spacing-tiny;
+  height: @spacing-tiny;
+  position: relative;
+
+  &,
+  .head {
+    background: @color-white;
+    border-radius: @spacing-tiny;
+  }
+
+  .head {
+    position: absolute;
+
+    &.bottomHead,
+    &.topHead {
+      left: @spacing-xsmall;
+      width: @spacing-tiny;
+      height: @spacing-medium;
+    }
+
+    &.leftHead,
+    &.rightHead {
+      bottom: @spacing-xsmall;
+      height: @spacing-tiny;
+      width: @spacing-medium;
+    }
+
+    &.bottomHead {
+      bottom: -@spacing-tiny;
+      transform: rotate(45deg);
+    }
+
+    &.topHead {
+      top: -@spacing-tiny;
+      transform: rotate(-45deg);
+    }
+
+    &.leftHead {
+      left: -@spacing-tiny;
+      transform: rotate(-45deg);
+    }
+
+    &.rightHead {
+      right: -@spacing-tiny;
+      transform: rotate(45deg);
+    }
+  }
+}
