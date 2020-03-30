@@ -1,6 +1,7 @@
+import Home from './home'
 import { graphql } from 'gatsby'
 
-export { default } from './home'
+export default Home
 
 export const pageQuery = graphql`
   query HomeQuery {
